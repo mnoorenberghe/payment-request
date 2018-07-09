@@ -1030,7 +1030,7 @@
           </li>
           <li data-tests=
           "show-method-optional-promise-rejects-manual.https.html, show-method-optional-promise-resolves-manual.https.html">
-          If <var>detailsPromise</var> is present, then:
+          If <var>detailsPromise</var> was passed, then:
             <ol>
               <li>Run the <a>update a <code>PaymentRequest</code>'s details
               algorithm</a> with <var>detailsPromise</var> and
@@ -3216,7 +3216,7 @@
           <var>retryPromise</var>.
           </li>
           <li data-link-for="PaymentValidationErrors">If
-          <var>errorFields</var>'s <a>paymentMethod</a> member was passed, and
+          <var>errorFields</var>'s <a>paymentMethod</a> member is present, and
           if required by the specification that defines <var>response</var>'s
           <a>payment method</a>, then <a data-cite=
           "!WEBIDL#dfn-convert-ecmascript-to-idl-value">convert</a>
